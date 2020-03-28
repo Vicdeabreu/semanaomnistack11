@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import Constants from './node_modules/expo-constants';
+import Constants from 'expo-constants';
 
 export default StyleSheet.create({
   container: {
@@ -40,7 +40,7 @@ export default StyleSheet.create({
   incidentList: {
     padding: 24,
     borderRadius: 8,
-    backgroundColor: #fff,
+    backgroundColor: '#FFF',
     marginBottom: 16,
   },
 
@@ -59,7 +59,7 @@ export default StyleSheet.create({
 
   detailsButton: {
     flexDirection: 'row',
-    justifyContent: 'espace-between',
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
 

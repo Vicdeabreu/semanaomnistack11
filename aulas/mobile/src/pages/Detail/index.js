@@ -2,8 +2,7 @@ import React from 'react';
 import { Feather } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { View, Text, Image, TouchableOpacity, Linking } from 'react-native';
-import * as MailComposer from 'expo-mail-composer';
-import 
+import * as MailComposer from 'expo-mail-composer'; 
 
 import logoImg from '../../assets/logo.png';
 
@@ -33,7 +32,7 @@ export default function Detail() {
   }
 
   return (
-    <View style={styles.container}/>
+    <View style={styles.container}>
       <View style={styles.header}>
         <Image source={logoImg} />
         
@@ -68,7 +67,7 @@ export default function Detail() {
               <Text styles={styles.actionText}>E-mail</Text>
             </TouchableOpacity>
           </View>
-        </View>
+      </View>
     </View>
   );
 }
